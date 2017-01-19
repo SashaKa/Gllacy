@@ -1,7 +1,7 @@
 # Личный проект «Глейси»
 
-* Студент: [Sasha Katushkova](https://up.htmlacademy.ru/htmlcss/16/user/280363).
-* Наставник: `Неизвестно`.
+* Студент: [Sasha Katushkova](https://up.htmlacademy.ru/htmlcss/15/user/280363).
+* Наставник: Ольга Одноколова.
 
 ---
 
