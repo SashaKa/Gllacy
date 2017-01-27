@@ -258,7 +258,7 @@ body #btn-1,
     height: 1px;
     left: 6px;
     position: absolute;
-    top: 35px;
+    top: 37px;
     width: 128px;
     z-index: 10;
 }
@@ -312,15 +312,16 @@ body #btn-1,
 .search-form {
     display: none;
     position: absolute;
-    top: 50px;
+    top: 40px;
     right: 227px;
     padding-top: 20px;
     padding-bottom: 20px;
-    padding-left: 15px;
+    padding-left: 20px;
     padding-right: 15px;
     color: #323232;
     background-color: #f8f7f4;
     border-radius: 4px;
+    border: none;
     box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.4);
 }
 input[name="search"] {
@@ -392,13 +393,13 @@ label[for="search"] {
     display: none;
     position: absolute;
     z-index: 10;
-    top: 50px;
+    top: 40px;
     right: 126px;
     min-height: 171px;
     padding-top: 20px;
     padding-bottom: 23px;
-    padding-left: 19px;
-    padding-right: 17px;
+    padding-left: 20px;
+    padding-right: 20px;
     background-color: #f8f7f4;
     border-radius: 4px;
     box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.4);
@@ -433,7 +434,7 @@ label[for="email"] {
 .btn.login-form-btn {
     position: absolute;
     bottom: 21px;
-    left: 18px;
+    left: 16px;
     margin-right: 19px;
     padding-top: 10px;
     padding-bottom: 9px;
@@ -445,7 +446,7 @@ label[for="email"] {
 .login-additional {
     float: right;
     text-align: left;
-    width: 120px;
+    width: 119px;
     font-size: 13px;
     line-height: 21px;
     font-weight: 400;
@@ -490,6 +491,7 @@ label[for="email"] {
     padding-left: 45px;
     padding-right: 40px;
     margin-left: 9px;
+    margin-bottom: 15px;
     text-decoration: none;
     font-size: 14px;
     line-height: 16px;
@@ -520,7 +522,7 @@ label[for="email"] {
     display: none;
     position: absolute;
     z-index: 20;
-    top: 50px;
+    top: 40px;
     right: 0;
     padding-left: 17px;
     padding-right: 14px;
@@ -825,7 +827,7 @@ select::-ms-expand {
 .max-price {
     display: inline-block;
     vertical-align: top;
-    max-width: 24px;
+    max-width: 27px;
     margin-top: -1px;
     margin-right: 2px;
     font-size: 14px;
@@ -1166,8 +1168,11 @@ article .banner-right {
     padding-right: 5px;
     padding-left: 5px;
     line-height: 19px;
-    z-index: 50;
+    z-index: 150;
     color: #ffffff;
+}
+.name-product:hover {
+    text-decoration: none;
 }
 .price {
     position: absolute;
@@ -1433,7 +1438,7 @@ label[for="subscription-email"] {
 iframe {
     position: absolute;
     width: 100%;
-    top: 4px;
+    top: -2px;
     left: 0;
     border: none;
 }
@@ -1897,4 +1902,3 @@ label[for="name"] {
     top: 49px;
     left: 41px;
 }
-/**/
