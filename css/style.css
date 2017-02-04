@@ -923,11 +923,11 @@ input[name="fatness"] {
     position: absolute;
     top: 4px;
     left: 6px;
-    width: 11px;
-    height: 11px;
+    width: 14px;
+    height: 14px;
     border-radius: 50%;
     background-color: #a9bbb1;
-    box-shadow: 0 0 0 4px #a9bbb1, 0 0 0 5px rgba(248, 247, 244, 1);
+    box-shadow: 0 0 0 3px #a9bbb1, 0 0 0 4px rgba(248, 247, 244, 1);
 }
 input[name="fatness"]:checked ~ .fatness-value::before {
     background-color: rgba(248, 247, 244, 1);
@@ -938,8 +938,8 @@ input[name="fatness"]:checked ~ .fatness-value::before {
 }
 input[name="fatness"]:disabled ~ .fatness-value::before,
 input[name="fatness"]:disabled ~ .fatness-value:hover::before {
-    width: 11px;
-    height: 11px;
+    width: 12px;
+    height: 12px;
     box-shadow: 0 0 0 4px #a9bbb1, 0 0 0 5px rgba(248, 247, 244, 0.4);
 }
 input[name="fatness"]:disabled:checked ~ .fatness-value::before,
