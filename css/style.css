@@ -30,7 +30,7 @@ body #btn-1,
     display: none;
 }
 .site-wrapper {
-    min-width: 940px;
+    /*min-width: 940px;*/
     background-repeat: no-repeat;
     background-position: top center;
     -webkit-transition: background-image 0.5s ease, background-color 0.5s ease;
@@ -149,7 +149,7 @@ body #btn-1,
 }
 .container {
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 0 2.3%;
     width: 1160px;
 }
 .container .logo {
@@ -1083,10 +1083,10 @@ article .banner-right {
     margin-right: 0;
 }
 .btn.banner-btn {
-    bottom: 23px;
+    float: right;
     padding: 11px 22px;
-    position: absolute;
-    right: 21px;
+
+
 }
 .banner b {
     font-size: 35px;
@@ -1097,6 +1097,7 @@ article .banner-right {
 .banner p {
     font-size: 18px;
     line-height: 22px;
+    margin-bottom: 40px;
 }
 /*ТОВАРЫ*/
 
@@ -1130,11 +1131,11 @@ article .banner-right {
     content: "";
     display: none;
     height: 405px;
-    left: -13;
+    left: -13px;
     position: absolute;
     top: 0;
     width: 293px;
-    z-index: 30;
+    z-index: 20;
 }
 .product:hover::after {
     display: block;
@@ -1145,7 +1146,7 @@ article .banner-right {
 .product img {
     margin-top: 20px;
     border-radius: 50%;
-    z-index: 40;
+    z-index: 60;
 }
 .img-wrap {
     position: relative;
@@ -1436,6 +1437,7 @@ label[for="subscription-email"] {
     min-height: 427px;
     margin-top: 34px;
     position: relative;
+    background-color: #d5cfb6;
 }
 iframe {
     position: absolute;
